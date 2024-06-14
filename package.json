@@ -3,7 +3,7 @@
   "version": "1.0.50",
   "scripts": {
     "dev": "bun run --watch src/server.ts",
-    "build": "bun build ./src/server.ts --outdir ./build",
+    "builds": "bun build src/server.ts --outdir ./build",
     "test:watch": "bun test --watch",
     "test:coverage": "bun run test --coverage"
   },
